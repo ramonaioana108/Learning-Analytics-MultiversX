@@ -1,0 +1,34 @@
+{
+  "run_dir": "models/20251216_134618",
+  "features_parquet": "./data_parquet/multiversx_features_tuned.parquet",
+  "date_range": {
+    "start": "2024-01-01",
+    "end": "2024-12-31"
+  },
+  "rmse_log": {
+    "linear_regression": 0.2961120235212837,
+    "decision_tree": 0.33885352853459894,
+    "random_forest": 0.30471782745004605
+  },
+  "r2_log": {
+    "linear_regression": 0.42651556518411726,
+    "decision_tree": 0.24901100042034507,
+    "random_forest": 0.39269720857421053
+  },
+  "rmse_raw": {
+    "linear_regression": 251433.58417249713,
+    "decision_tree": 308928.25118891144,
+    "random_forest": 281154.41675073194
+  },
+  "r2_raw": {
+    "linear_regression": -0.026227191125342664,
+    "decision_tree": -0.5492167965785548,
+    "random_forest": -0.2831775887245167
+  },
+  "models_loaded": [
+    "linear_regression",
+    "decision_tree",
+    "random_forest"
+  ],
+  "generated_at": "2025-12-18T15:56:45.205664"
+}
